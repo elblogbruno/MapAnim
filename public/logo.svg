@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" fill="none">
+  <defs>
+    <linearGradient id="brandIconBg" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B" />
+      <stop offset="0.5" stop-color="#EA580C" />
+      <stop offset="1" stop-color="#BE123C" />
+    </linearGradient>
+    <linearGradient id="routePathGrad" x1="8" y1="28" x2="28" y2="10" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EF4444" />
+      <stop offset="0.5" stop-color="#F97316" />
+      <stop offset="1" stop-color="#FBBF24" />
+    </linearGradient>
+  </defs>
+  <!-- Icon Badge -->
+  <rect x="2" y="2" width="36" height="36" rx="10" fill="#090B0E" />
+  <rect x="3" y="3" width="34" height="34" rx="9" stroke="url(#brandIconBg)" stroke-width="2" fill="#0F172A" />
+  <path d="M8 28 C 10 18, 19 22, 19 14 C 19 10, 24 8, 28 10" stroke="url(#routePathGrad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="8" cy="28" r="2.8" fill="#EF4444" stroke="#FFFFFF" stroke-width="1.2" />
+  <circle cx="28" cy="10" r="3.2" fill="#F59E0B" stroke="#FFFFFF" stroke-width="1.2" />
+  <circle cx="28" cy="10" r="1.2" fill="#090B0E" />
+
+  <!-- Typography -->
+  <text x="48" y="24" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="16" letter-spacing="-0.5">ROUTE</text>
+  <rect x="108" y="10" width="48" height="18" rx="4" fill="#EA580C" fill-opacity="0.9" stroke="#FFFFFF" stroke-opacity="0.2" />
+  <text x="114" y="23" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="10" letter-spacing="1">STUDIO</text>
+  <text x="48" y="35" fill="#94A3B8" font-family="monospace" font-size="8" letter-spacing="1">CINEMATIC MAP ENGINE</text>
+</svg>
